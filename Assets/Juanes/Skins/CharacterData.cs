@@ -9,5 +9,8 @@ public class CharacterData : ScriptableObject
     public Material material;
     public int CurrentMaterialIndex;
     public UnityEvent<Material> materialChanged;
+    public GameObject Puntajes;
+    public int CurrentPuntajeIndex;
+    public UnityEvent<GameObject> PuntajeChange;
 }
 
